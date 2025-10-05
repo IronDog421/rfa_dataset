@@ -6,7 +6,7 @@
 set -euo pipefail
 
 # ---- Settings ---------------------------------------------------------------
-BATCH_SIZE="${BATCH_SIZE:-1000}"   # override with: BATCH_SIZE=500 ./batch_push.sh
+BATCH_SIZE="${BATCH_SIZE:-200}"   # override with: BATCH_SIZE=500 ./batch_push.sh
 # ---------------------------------------------------------------------------
 
 # Ensure we're inside a Git repo
