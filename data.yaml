@@ -1,0 +1,14 @@
+
+path: rfa_dataset/
+
+train: [town01/images, town02/images, town03/images, town04/images, town05/images, town06/images, town11/images, town12/images, town10/images]
+
+val: [town07/images]
+
+names:
+  0: pedestrian
+  1: cyclist
+  2: car
+  3: truck
+  4: bus
+  5: motorcycle
